@@ -41,7 +41,7 @@ int trap(int arr[], int n)
 
 int main()
 {
-    int arr[]={4,2,3,2,1,6,2,1,3,8,3,2,2,4,3,0,3};
+    int arr[]={3,5,6,3,6,3,3,2,3,4,2,4,2};
     int n = sizeof(arr)/sizeof(arr[0]);
     int trapped_water=trap(arr,n);
     cout<<"Amount of Trapped rain water is: "<<trapped_water<<endl;
